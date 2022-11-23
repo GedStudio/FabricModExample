@@ -4,7 +4,7 @@ import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 
-public class ExampleMod implements ClientModInitializer {
+public class ExampleModClient implements ClientModInitializer {
 
 	private static ExampleConfig config;
 
